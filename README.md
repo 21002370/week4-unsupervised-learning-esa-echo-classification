@@ -33,6 +33,7 @@ GMMs are well suited to this problem because they provide **soft clustering**, a
 The model was configured with **two Gaussian components**, corresponding to:
 - Sea ice echoes  
 - Lead echoes
+
 The choice of two components was motivated by the expected bimodal nature of the echo population corresponding to sea ice and leads.
 Following preprocessing and cleaning of the echo data, the GMM was fitted and cluster labels were assigned to each echo waveform.
 
