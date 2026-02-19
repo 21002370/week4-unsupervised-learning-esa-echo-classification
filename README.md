@@ -19,8 +19,7 @@ Different surface types (e.g. rough sea ice versus smooth leads) produce distinc
 
 The figure below shows a selection of raw altimetry echo waveforms used in this study, highlighting the large variability in echo shape and amplitude.
 
-
-![All altimetry echoes] (figures/all_echos.png)* Figure] (figures/all_echos.png)* Figure
+![All altimetry echoes](figures/all_echos.png)
 
 *Figure 1. A selection of raw Sentinel-3 altimetry echo waveforms, illustrating the diversity of echo shapes prior to classification.*
 
@@ -44,12 +43,12 @@ Following preprocessing and cleaning of the echo data, the GMM was fitted and cl
 After clustering, the **mean echo shape** and **standard deviation** were calculated separately for sea ice and lead echoes.
 
 The figure below shows that lead echoes exhibit a **sharper and stronger peak**, while sea ice echoes display a broader and more gradual decay.  
-The standard deviation indicates **greater variability in lead echoes**, consistent with the dynamic and heterogeneous nature of leads
+The standard deviation indicates **greater variability in lead echoes**, consistent with the dynamic and heterogeneous nature of leads.
 
-
-![Mean and standard deviation] (figures/Mean_and_sd.png)*Figure](figures/Mean_and_sd.png)
+![Mean and standard deviation](figures/Mean_and_sd.png)
 
 *Figure 2. Mean echo waveform and standard deviation for sea ice and lead classes derived from the GMM classification.*
+
 
 ---
 
